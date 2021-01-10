@@ -49,10 +49,10 @@ namespace myBank.Classes
         public override string ToString()
         {
             string retorno = "";
-            retorno +="AccountType" + this.AccountType + " | ";
-            retorno +="Name" + this.Name + " | ";
-            retorno +="Balance" + this.Balance + " | ";
-            retorno +="Credit" + this.Credit;
+            retorno +="AccountType " + this.AccountType + " | ";
+            retorno +="Name " + this.Name + " | ";
+            retorno +="Balance " + this.Balance + " | ";
+            retorno +="Credit " + this.Credit;
             return retorno;
         }
     }
